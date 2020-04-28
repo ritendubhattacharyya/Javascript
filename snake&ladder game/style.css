@@ -1,0 +1,187 @@
+* {
+    padding: 0;
+    margin: 0;
+    background-color: blueviolet;
+    box-sizing: border-box;
+}
+
+#container {
+    width: 579px;
+    height: 100vh;
+    /* border: 1px solid royalblue; */
+    margin: 0 auto;
+}
+
+#game {
+    width: 579px;
+    height: 382px;
+    /* border: 1px solid red; */
+    margin-top: 8%;
+    background-image: url("snake-and-ladders.jpg");
+    padding-top: 10px;
+}
+
+#area {
+    width: 534px;
+    height: 339px;
+    /* border: 1px solid white; */
+    opacity: 0.5;
+    margin-top: 13px;
+    margin-left: 22.5px;
+    border:1px solid red;
+    display: grid;
+    grid-template-areas:
+    "box25 box26 box27 box28 box29 box30"
+    "box24 box23 box22 box21 box20 box19"
+    "box13 box14 box15 box16 box17 box18"
+    "box12 box11 box10 box9 box8 box7"
+    "box1 box2 box3 box4 box5 box6";
+}
+
+.box {
+    width: 79px;
+    height: 67px;
+    /* border: 1px solid white; */
+    transition: all 1s ease-in 0.5s;
+}
+
+.box1 {
+    grid-area: box1;
+    /* background-color:yellow; */
+}
+
+.box2 {
+    grid-area: box2;
+    /* background-color: white; */
+}
+
+.box3 {
+    grid-area: box3;
+}
+
+.box4 {
+    grid-area: box4;
+}
+
+.box5 {
+    grid-area: box5;
+}
+
+.box6 {
+    grid-area: box6;
+}
+
+.box7{
+    grid-area: box7;
+}
+
+.box8 {
+    grid-area: box8;
+}
+
+.box9 {
+    grid-area: box9;
+}
+
+.box10 {
+    grid-area: box10;
+}
+
+.box11 {
+    grid-area: box11;
+}
+
+.box12 {
+    grid-area: box12;
+}
+
+.box13 {
+    grid-area: box13;
+}
+
+.box14 {
+    grid-area: box14;
+}
+
+.box15 {
+    grid-area: box15;
+}
+
+.box16 {
+    grid-area: box16;
+}
+
+.box17 {
+    grid-area: box17;
+}
+
+.box18 {
+    grid-area: box18;
+}
+
+.box19 {
+    grid-area: box19;
+}
+
+.box20 {
+    grid-area: box20;
+}
+
+.box21 {
+    grid-area: box21;
+}
+
+.box22 {
+    grid-area: box22;
+}
+
+.box23 {
+    grid-area: box23;
+}
+
+.box24 {
+    grid-area: box24;
+}
+
+.box25 {
+    grid-area: box25;
+}
+
+.box26 {
+    grid-area: box26;
+}
+
+.box27 {
+    grid-area: box27;
+}
+
+.box28 {
+    grid-area: box28;
+}
+
+.box29 {
+    grid-area: box29;
+}
+
+.box30 {
+    grid-area: box30;
+}
+
+#play {
+    text-align: center;
+}
+
+#play button {
+    padding: 10px;
+    background-color: teal;
+    color:White;
+    font-family: arial;
+    margin-top: 7px;
+}
+
+#play h6 {
+    color: white;
+    margin-top: 5px;
+    font-size: small;
+    font-family: arial;
+}
